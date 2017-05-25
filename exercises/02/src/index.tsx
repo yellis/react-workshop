@@ -5,6 +5,6 @@ import { render } from 'react-dom';
 // Edit component.jsx to solve the assignment
 
 render(
-  <Component />,
+  <Component firstName="Yaakov" lastName="Ellis" showCorrect={true} />,
   document.querySelector('#app')
 );
